@@ -1,2 +1,19 @@
 # hellobaby-server
-a monitor server system  with databases , systems and report using quartz + poi + thymeleaf
+```
+数据采集服务端,服务数据采集以及检测 主机数据采集以及检测,定时邮件任务,事件通知等
+```
+# hellobaby-client
+```
+数据采集客户端,提供数据采集接口供服务端使用,也可拓展其他采集种类
+```
+
+# 涉及技术 
+
+技术 | 描述|项目地址
+---|---|---
+quartz |在项目中作为定时任务调用框架使用|
+poi |在发送邮件报表数据使用|
+thymeleaf|在本项目中作为消息模板引擎使用|
+h2|在本项目中作为元数据库使用|
+sigar|在本项目中作为采集服务器运行数据使用|
+cp30|在本项目中使用数据库连接池|
